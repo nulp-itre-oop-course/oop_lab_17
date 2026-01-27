@@ -25,10 +25,9 @@ public:
 class cap_w_res : public capacitor
 {
 private:
+public:
     param equiv_res;
     void res_fill();
-
-public:
     cap_w_res();
     cap_w_res(std::string name);
     ~cap_w_res();
@@ -37,10 +36,9 @@ public:
 class cap_w_use_f : public capacitor
 {
 private:
+public:
     std::string fild_of_use;
     void use_case_fill();
-
-public:
     cap_w_use_f();
     cap_w_use_f(std::string name);
     ~cap_w_use_f();
